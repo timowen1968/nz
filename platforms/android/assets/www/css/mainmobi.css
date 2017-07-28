@@ -1,0 +1,106 @@
+body {
+    /*background:url('../img/musicimage2.jpg');*/
+    background-color:black;
+    background-size: contain;
+    color: beige;
+    background-position: right top;
+}
+.header{
+    width:100%;
+    font-size: 20pt;
+    white-space: nowrap;
+    background: #455e9c;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    spacing:0px;
+}
+#page{
+    background:url('../img/musicimage2.jpg');
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+
+}
+#score{
+    width:80%;
+    text-align: right;
+}
+#splash {
+    background:url('../img/musicimage2.jpg');
+    background-size: contain;
+    display: flex;
+    opacity:0.9;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    background-position: right top;
+    width:100%;
+    height:100%;
+    font-size: 30pt;
+    font-weight:bold;
+}
+input, span {
+    /*font-weight:bold;*/
+    text-transform:uppercase;
+    background: #99ccff;
+    font: bold 8pt monospace;
+    text-align:center;
+    /*font-size:10px;*/
+}
+INPUT:disabled{
+    font: bold 8pt monospace;
+    background: #69C0A0;
+    color: black;
+}
+#reportProblem, #about {
+    display:none;
+    width:50%;
+    background-color:#99ccff;
+    color:black;
+    padding:5px;
+}
+#reportHeading, #aboutHeading{
+    color:black;
+    width:100%;
+    background:#69C0A0;
+    text-align: center;
+}
+#reportBody, #aboutBody{
+    color:black;
+    padding:20px;
+    text-valign: top;
+}
+#loser {
+    display:none;
+    width:30%;
+    text-align: center;
+    background-color:#99ccff;
+    color:black;
+    padding:40px;
+}
+button{
+    background:inherit;
+    color: #99ccff;
+    font-size:10px;
+}
+
+audio {
+        /*display:none;*/
+}
+
+button:disabled{
+    background:inherit;
+    color: #99ccff;
+    font-size:10px;
+}
+.smooth{
+    border:none;
+    background:transparent;
+}
+
+td {
+    align:top;
+    vertical-align:top;
+}

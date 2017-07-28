@@ -1,0 +1,72 @@
+committing
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	modified:   CordovaLib/CordovaLib.xcodeproj/project.pbxproj
+#	modified:   CordovaLib/CordovaLib.xcodeproj/xcuserdata/Tim.xcuserdatad/xcschemes/CordovaLib.xcscheme
+#	modified:   Split Music Challenge.xcodeproj/project.pbxproj
+#	new file:   Split Music Challenge.xcodeproj/project.xcworkspace/xcuserdata/Tim.xcuserdatad/WorkspaceSettings.xcsettings
+#	modified:   Split Music Challenge.xcodeproj/xcuserdata/Tim.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+#	modified:   Split Music Challenge.xcodeproj/xcuserdata/Tim.xcuserdatad/xcschemes/Split Music Challenge.xcscheme
+#	modified:   Split Music Challenge/Classes/AppDelegate.m
+#	modified:   Split Music Challenge/Classes/MainViewController.m
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-40.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-40@2x.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-50.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-50@2x.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-60@2x.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-60@3x.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-72.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-72@2x.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-76.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-76@2x.png
+#	new file:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-small.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-small@2x.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon-small@3x.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon.png
+#	modified:   Split Music Challenge/Images.xcassets/AppIcon.appiconset/icon@2x.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default-667h.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default-736h.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x~ipad.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default-Landscape~ipad.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default-Portrait@2x~ipad.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default-Portrait~ipad.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default@2x~iphone.png
+#	modified:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/Default~iphone.png
+#	new file:   Split Music Challenge/Images.xcassets/LaunchImage.launchimage/smc.css
+#	modified:   Split Music Challenge/Split Music Challenge-Info.plist
+#	modified:   Split Music Challenge/config.xml
+#	modified:   config.xml
+#	modified:   ios.json
+#	modified:   www/.idea/workspace.xml
+#	modified:   www/ajax.php
+#	modified:   www/config.xml
+#	deleted:    www/cordova.js
+#	modified:   www/cordova_plugins.js
+#	modified:   www/css/smc.css
+#	modified:   www/css/speechbubbles.css
+#	new file:   www/img/icon.jpg
+#	modified:   www/img/musicimage1.jpg
+#	deleted:    www/img/musicimage2.jpg
+#	deleted:    www/img/musicimage3.jpg
+#	new file:   www/img/musicimageiphone.jpg
+#	new file:   www/img/optionsblueonblack.jpg
+#	new file:   www/img/replay2.jpg
+#	deleted:    www/img/replay_smiley.jpg
+#	new file:   www/img/splashiphone.jpg
+#	modified:   www/index.html
+#	new file:   www/js/audio.js
+#	new file:   www/js/jquery.easing.js
+#	new file:   www/js/jquery.ui.swirl.js
+#	deleted:    www/js/sdk.js
+#	modified:   www/js/smc.js
+#	deleted:    www/plugins/com.jp.plugin.facebook/www/facebook.js
+#	new file:   www/res/click.mp3
+#
+# Untracked files:
+#	plugins/
+#

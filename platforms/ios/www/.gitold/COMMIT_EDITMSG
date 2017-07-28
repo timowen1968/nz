@@ -1,0 +1,102 @@
+Addig project
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   Track.php
+#	new file:   ajax.php
+#	new file:   config.xml
+#	new file:   cordova-js-src/exec.js
+#	new file:   cordova-js-src/platform.js
+#	new file:   cordova_plugins.js
+#	new file:   css/smc.css
+#	new file:   css/speechbubbles.css
+#	new file:   db_incl.php
+#	new file:   icon.png
+#	new file:   img/FB.jpg
+#	new file:   img/iTunes.png
+#	new file:   img/icon.jpg
+#	new file:   img/logo.png
+#	new file:   img/musicimage1.jpg
+#	new file:   img/musicimageipad.jpg
+#	new file:   img/musicimageiphone.jpg
+#	new file:   img/optionsblueonblack.jpg
+#	new file:   img/replay.jpg
+#	new file:   img/replay2.jpg
+#	new file:   img/splashiphone.jpg
+#	new file:   img/twitter.jpg
+#	new file:   index.html
+#	new file:   js/PushNotification.js
+#	new file:   js/audio.js
+#	new file:   js/itunes.js
+#	new file:   js/jquery-2.2.1.min.js
+#	new file:   js/jquery.easing.js
+#	new file:   js/jquery.js
+#	new file:   js/jquery.ui.swirl.js
+#	new file:   js/smc.js
+#	new file:   plugins/cordova-plugin-console/www/console-via-logger.js
+#	new file:   plugins/cordova-plugin-console/www/logger.js
+#	new file:   res/.pgbomit
+#	new file:   res/Coins.mp3
+#	new file:   res/click.mp3
+#	new file:   res/icon/android/icon-36-ldpi.png
+#	new file:   res/icon/android/icon-48-mdpi.png
+#	new file:   res/icon/android/icon-72-hdpi.png
+#	new file:   res/icon/android/icon-96-xhdpi.png
+#	new file:   res/icon/bada-wac/icon-48-type5.png
+#	new file:   res/icon/bada-wac/icon-50-type3.png
+#	new file:   res/icon/bada-wac/icon-80-type4.png
+#	new file:   res/icon/bada/icon-128.png
+#	new file:   res/icon/blackberry/icon-80.png
+#	new file:   res/icon/ios/icon-57-2x.png
+#	new file:   res/icon/ios/icon-57.png
+#	new file:   res/icon/ios/icon-72-2x.png
+#	new file:   res/icon/ios/icon-72.png
+#	new file:   res/icon/tizen/icon-128.png
+#	new file:   res/icon/webos/icon-64.png
+#	new file:   res/icon/windows-phone/icon-173-tile.png
+#	new file:   res/icon/windows-phone/icon-48.png
+#	new file:   res/icon/windows-phone/icon-62-tile.png
+#	new file:   res/screen/android/screen-hdpi-landscape.png
+#	new file:   res/screen/android/screen-hdpi-portrait.png
+#	new file:   res/screen/android/screen-ldpi-landscape.png
+#	new file:   res/screen/android/screen-ldpi-portrait.png
+#	new file:   res/screen/android/screen-mdpi-landscape.png
+#	new file:   res/screen/android/screen-mdpi-portrait.png
+#	new file:   res/screen/android/screen-xhdpi-landscape.png
+#	new file:   res/screen/android/screen-xhdpi-portrait.png
+#	new file:   res/screen/bada-wac/screen-type3.png
+#	new file:   res/screen/bada-wac/screen-type4.png
+#	new file:   res/screen/bada-wac/screen-type5.png
+#	new file:   res/screen/bada/screen-portrait.png
+#	new file:   res/screen/blackberry/screen-225.png
+#	new file:   res/screen/ios/screen-ipad-landscape-2x.png
+#	new file:   res/screen/ios/screen-ipad-landscape.png
+#	new file:   res/screen/ios/screen-ipad-portrait-2x.png
+#	new file:   res/screen/ios/screen-ipad-portrait.png
+#	new file:   res/screen/ios/screen-iphone-landscape-2x.png
+#	new file:   res/screen/ios/screen-iphone-landscape.png
+#	new file:   res/screen/ios/screen-iphone-portrait-2x.png
+#	new file:   res/screen/ios/screen-iphone-portrait-568h-2x.png
+#	new file:   res/screen/ios/screen-iphone-portrait.png
+#	new file:   res/screen/tizen/README.md
+#	new file:   res/screen/webos/screen-64.png
+#	new file:   res/screen/windows-phone/screen-portrait.jpg
+#	new file:   spec.html
+#	new file:   spec/helper.js
+#	new file:   spec/index.js
+#	new file:   spec/lib/jasmine-1.2.0/MIT.LICENSE
+#	new file:   spec/lib/jasmine-1.2.0/jasmine-html.js
+#	new file:   spec/lib/jasmine-1.2.0/jasmine.css
+#	new file:   spec/lib/jasmine-1.2.0/jasmine.js
+#	new file:   tmp/main_page.html
+#	new file:   tmp/npm-debug.log
+#	new file:   tmp/smiley_icons.jpg
+#	new file:   tmp/testAudioFiles.php.html
+#
+# Untracked files:
+#	.idea/
+#

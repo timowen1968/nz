@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test audio files</title>
+</head>
+<body>
+<?php
+require_once "Track.php";
+// set error reporting level
+if (version_compare(phpversion(), '5.3.0', '>=') == 1)
+error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
+else
+error_reporting(E_ALL & ~E_NOTICE);
+
+include 'db_incl.php';
+$qry = "select * from track_list limit 50";
+$result = $conn->query($qry);
+if ($result->num_rows > 0) {
+$i = 0;
+while($row = $result->fetch_assoc()) {
+$tracks[++$i] = new Track($row);
+//            echo "<audio id='snip" . $i ."' src='" . $tracks[1]->getFilename() . "' " . $catchError ." oncanplaythrough='thisOneDone(this)'></audio>";
+echo "<audio id='snip" . $i ."' src='" . $row[filename] . "' preload='none' oncanplaythrough='thisOneDone(this)'></audio>";
+}
+} else {
+echo "There are no songs in the DB";
+}
+
+?>
+
+</body>
+</html>

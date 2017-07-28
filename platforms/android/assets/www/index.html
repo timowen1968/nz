@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Split Music Challenge</title>
+
+    <!-- Jquery stuff -->
+    <!-- Include meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- Include the jQuery library -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Include the jQuery Mobile library -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!--End of jquery stuff-->
+
+    <link rel="stylesheet" href="css/mainmobi.css" type="text/css" media="all" />
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
+    <!--<script src="jquery/jquery.mobile-1.4.5.js"></script>-->
+    <script src="js/splitmusicchallengemobi.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="* 'self' http://www.oursort.co.za">
+</head>
+<body>
+<div id="page">
+    <table class="header">
+        <tr><td>Split Music Challenge</td>
+            <td id="score"></td>
+        </tr>
+    </table>
+    <!--<table style="width:400pt">-->
+    <table>
+        <tr>
+            <td><div id="pointsTD" style="align:right;font-size:15pt"></div></td>
+            <td valign="top" align="left" style="text-align: right; width:5%">
+                <select name="lifeline" onchange="useLifeline(this)">
+                    <option value="0">Life Lines</option>
+                    <option value="1">Replay</option>
+                    <option value="3">Different snippet</option>
+                    <option value="2">Longer snippet</option>
+                </select>
+                <br>
+                <select name="lifeline" onchange="chooseDecade(this)">
+                    <option value="0">All Decades</option>
+                    <option value="1">1980's</option>
+                    <option value="3">1990's</option>
+                    <option value="2">2000's</option>
+                </select>
+                <br>
+                <select name="lifeline" onchange="chooseGenre(this)">
+                    <option value="0">All Genres</option>
+                    <option value="1">Pop</option>
+                    <option value="3">Alternative</option>
+                    <option value="2">Electronic</option>
+                </select>
+
+            </td>
+        </tr>
+    </table>
+    <form name="theform" autocomplete="off" method="POST">
+        <div id="serverData"></div>
+
+    </form>
+    <div id="loser">Loser!</div>
+    <div id="ajaxResult"></div>
+    <div id="about" style="display:none">
+        <div id="aboutHeading"><table><tr><td width="99%" style="text-align: center;color:black">Scoring and some disclaimers :/</td>
+            <td onClick="cleanupAboutDiv()"><b>X</b></td></tr></table></div>
+        <div id="aboutBody">Still need to fill this<br></div>
+    </div>
+    <audio id='coinAudio' src='res/Coins.mp3' controls loop="true" preload=auto"></audio>
+</div>
+<div id="debug"> </div>
+
+<div id="splash">
+    Tuning Our Instruments higher level
+</div>
+
+</body>
+</html>

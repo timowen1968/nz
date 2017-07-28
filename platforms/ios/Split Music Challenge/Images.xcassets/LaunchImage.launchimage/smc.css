@@ -1,0 +1,335 @@
+body {
+    /*background:url('../img/musicimage2.jpg') no-repeat;*/
+    background-color:black;
+    background-size: contain;
+    color: beige;
+    background-position: center;
+}
+#top{
+    background:beige;
+    height:20px;
+    padding:0;
+    margin:0;
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#header{
+    width:100%;
+/*    font-size: 20pt;*/
+    white-space: nowrap;
+    background: #455e9c;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+    padding-top:20px;
+    spacing:0px;
+}
+#page{
+    background:url('../img/musicimage1.jpg');
+    /*background:black;*/
+    background-size: 100% 100%;
+    display:none;
+    position:absolute;
+    top:0px;
+    left:0;
+    width:auto;
+
+}
+#score, #pointsTD{
+/*    font-size:15pt;*/
+    align:right;
+    /*    width:80%;*/
+    /*    text-align: right;*/
+}
+#splash, #connection {
+    background: url('../img/splashiphone.jpg') no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: beige;
+    background-position: center;
+    vertical-align: middle;
+    width:100%;
+    height: 100%;
+    font-size: 20pt;
+    font-weight: bold;
+}
+#winsplash {
+    font-size:50px;
+    text-align:center;
+    height:300px;
+    line-height:150px;
+    vertical-align:middle;
+}
+input, span {
+    /*font-weight:bold;*/
+    text-transform:capitalize;
+    background: #99ccff;
+    font:  12pt Lucida Console;
+    text-align:center;
+    color: black;
+    padding: 0px 2px 0px 2px;
+    border:none;
+    margin:2px;
+    /*font-size:10px;*/
+}
+INPUT:disabled{
+    font: 12pt Lucida Console;
+    background: #9dffc3;
+    border-radius:9px;
+    opacity:1;
+}
+.info{
+    /*    border:none;*/
+    border:none;
+    background:transparent;
+    /*background: #9dffc3;*/
+    color: beige;
+    /*    opacity:1;*/
+}
+/*#reportHeading, #aboutHeading{*/
+/*    color:white;*/
+/*    width:100%;*/
+/*    background:#69C0A0;*/
+/*    text-align: center;*/
+/*}*/
+/*#reportBody, #aboutBody{*/
+/*    color:white;*/
+/*    padding:20px;*/
+/*    text-valign: top;*/
+/*}*/
+#loser {
+    display:none;
+    width:30%;
+    text-align: center;
+    background-color:#99ccff;
+    color:black;
+    padding:40px;
+}
+button{
+    background:inherit;
+    color: #99ccff;
+    font-size:16px;
+    padding:0px;
+    /*    spacing:0px;*/
+}
+
+.buttonInfo, .buttonAnswer, .buttonAnswer > img{
+    width:inherit;
+    border:none;
+}
+
+audio {
+/*    display:none;*/
+}
+
+button:disabled{
+    background:inherit;
+    color: #99ccff;
+    font-size:16px;
+}
+.smooth{
+    border:none;
+    background:transparent;
+}
+
+.track{
+    /*border:none;*/
+
+}
+
+td {
+    align:top;
+    vertical-align:top;
+}
+div {
+    display:inline;
+}
+
+p {
+    white-space:nowrap;
+    background:inherit;
+}
+
+#options {
+    border: 2px outset #9dffc3;
+    border-radius:10px;
+    padding: 10px;
+    display:none;
+    /*    font-size: 1.2em;*/
+    background-color: #455e9c;
+    
+    
+/*    background:#455e9c;*/
+/*    color:white;*/
+    position:absolute;
+    right:0;
+/*    top:100px;*/
+    width:auto;
+    display:none;
+    opacity:1 !important;
+    font-weight:bold;
+}
+#error {
+    background:#455e9c; 
+    color:white;
+    padding:10px;
+    position:absolute;
+    left:0;
+/*    top:100px;*/
+    display:none;
+    opacity:1;
+    font-weight:bold;
+}
+#reportProblem, #about {
+    background:#455e9c;
+    color:white;
+    padding:10px;
+    position:absolute;
+/*    left:0;*/
+/*    top:100px;*/
+    display:none;
+    opacity:1;
+    font-weight:bold;
+    width:auto;
+    color:beige;
+    
+}
+.answerRow {
+    display:none;
+}
+.answerDiv{
+    display:inline;
+    padding:0px;
+}
+
+#comment_bubble {
+    width: 140px;
+    left:20px;
+    padding:10px;
+    background: #9dffc3;
+    position: absolute;
+    top:60px;
+    left:40px;
+    color:black;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+}
+
+#comment_bubble_before {
+    position: absolute;
+    top: 900px;
+    left:30px;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #9dffc3;
+    border-bottom: 13px solid transparent;
+}
+
+.runintro1{
+    display:none;
+}
+
+.trackTD{
+    width:20px;
+    /*text-align: center;*/
+    /*background-size:20px;*/
+    /*background-repeat:no-repeat;*/
+    /*color:beige;*/
+    /*font-weight:bold;*/
+    /*white-space: nowrap;*/
+
+}
+/*.buttonTrack:hover{*/
+/*    background: #99ccff;*/
+/*    color:black;*/
+/*}*/
+/*.trackTD:hover{*/
+    /*width:20px;*/
+    /*text-align: center;*/
+    /*!*background:url('../img/lightgreenplay.gif');*!*/
+    /*background-size:20px;*/
+    /*background-repeat:no-repeat;*/
+/*}*/
+.buttonTrack{
+    border: 2px outset #9dffc3;
+    border-radius:10px;
+    width:20px;
+    height:20px;
+    line-height: 15px;
+    font-size: 14px;
+    text-align:center;
+    align:center;
+    align-content: center;
+    child-align: center;
+    margin:auto;
+    /*color:black;*/
+    color: #99ccff;
+    font-weight:bold;
+/*    font-size: 14px;*/
+    vertical-align: middle;
+    /*background: #99ccff;*/
+    background:inherit;
+}
+
+.infoTD {
+    /*width:200px;*/
+}
+select {
+    /*-webkit-appearance: none;*/
+    border-radius:9px;
+    border: black;
+    background: #455e9c;
+    color:white;
+    margin:0;
+}
+#pause, #resume{
+    display:none;
+    /*background:black;*/
+    color:beige;
+    position: relative;
+    top:0px;
+    left:0px;
+    opacity:0.0;
+    font-size:40pt;
+    /*padding:20px;*/
+}
+
+IMG.fb, IMG.twitter {
+    height:25px;
+    vertical-align:middle;
+    /*text-align:center;*/
+}
+
+#alerts, #about, #reportProblem{
+    border: 2px outset #9dffc3;
+    border-radius:10px;
+    padding: 10px;
+    display:none;
+/*    font-size: 1.2em;*/
+    background-color: #455e9c;
+}
+/*.alerts{*/
+/*    border: 2px outset #9dffc3;*/
+/*    padding: 5px;*/
+/*}*/
+
+#alertMessage{
+    background: #455e9c;
+}
+
+#alertsButtons{
+    text-align: center;
+}
+#serverData{
+    display:table;
+    width:inherit;
+}
+#songsTable{
+    display:table;
+    width:inherit;
+}

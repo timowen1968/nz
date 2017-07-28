@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Split Music Challenge - Mobile</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.get("http://localhost/tim/splitmusicchallenge.php", function (data)
+            {
+                var newDoc = document.open("/text/html", "replace");
+                newDoc.write(data);
+                newDoc.close();
+            })
+        })
+    </script>
+    <link rel="stylesheet" href="main.css" type="text/css" media="all" />
+</head>
+<body>
+</body>
+</html>
